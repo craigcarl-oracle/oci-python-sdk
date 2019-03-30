@@ -29,8 +29,8 @@ def api_key():
 
 
 def auth_token():
-    echo
-    "TODO"
+    print("TODO")
 
 
 def main():
+    print("TODO")
