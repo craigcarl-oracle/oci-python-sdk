@@ -14,23 +14,32 @@ Style Guide
 
 Examples should be -
 
-* Runnable
+* Executable
 * Atomic and implemented as a module
 
   * A module should be limited to, at most, a single resource type.
-  * The module should import other examples as required to be runnable.
+  * A module should implement a single architecture.
 
-* Be over-commented
+    * See the VCN examples.
+  * A module should import other examples as required.
 
-  * The examples should be consumable by users of all skill levels.
-  * Include a docstring.
+* Easily consumable by users of all skill levels
+
+  * Examples should be over-commented.
+  * Logging should be used be aggressively.
+  * Functions should always include a docstring.
+  * Module names should be descriptive.
   * Include links to the `API reference`__ for the API.
+  * With exceptions for above examples should conform to PEP8.
 
 __ https://oracle-cloud-infrastructure-python-sdk.readthedocs.io/en/latest/index.html
+
 
 * Be opinionated
 
   * An example should represent the best practise.
+
+    * Python 2.* compatibility is neither required nor encouraged.
 
 Tests
 =====
